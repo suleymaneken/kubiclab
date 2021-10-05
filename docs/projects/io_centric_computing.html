@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sampa: I/O Centric Computing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="http://www.cs.washington.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/sampa.png"
+                    srcset="/img/sampa@2x.png 2x"
+                    alt="Sampa" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+  <h1>I/O Centric Computing</h1>
+  
+  <div>
+  <ul class="project-people">
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="http://homes.cs.washington.edu/~cdel/">
+        
+        <img class="img-circle" src="/img/people/cdel.jpg" alt="Carlo Del Mundo"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="http://homes.cs.washington.edu/~vlee2/">
+        
+        <img class="img-circle" src="/img/people/lee.jpg" alt="Vincent Lee"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="http://homes.cs.washington.edu/~armin/">
+        
+        <img class="img-circle" src="/img/people/armin.jpg" alt="Armin Alaghi"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~luisceze/">
+        
+        <img class="img-circle" src="/img/people/ceze.jpg" alt="Luis Ceze"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~oskin/">
+        
+        <img class="img-circle" src="/img/people/oskin.jpg" alt="Mark Oskin"/>
+        
+        </a>
+    
+    </li>
+    
+</ul>
+
+  </div>
+  
+
+
+<div class="content">
+    <p><br /></p>
+
+<h2 id="viral-video-and-image-retrieval-at-large-scale">VIRAL: Video And Image Retrieval At Large Scale</h2>
+
+<p>To index and search all of the videos in the Internet requires massive resources. Using commodity parts and existing libraries, a conservative estimate for a system requires 32 petabytes to store feature data, 480,000 CPU cores to build and update the index, and 1000 servers to service 1 million concurrent clients at a latency on the order of seconds. Such requirements in both power consumption and performance rival those of the top supercomputers. While it may be feasible to add commodity CPUs to increase raw processing power, the exponential rates of multimedia content creation and consumption exacerbate the scalability of network infrastructure and memory subsystems. In 2013 alone, approximately 127 billion images and 620 million videos were uploaded to Facebook and YouTube respectively. In the same year, traffic volumes from Netflix and YouTube accounted for more than 50% of global Internet traffic.</p>
+
+<p>This growth in data has created a landscape where multimedia search engines will be essential to organize and reason about the available data. To date, advances in feature extraction and visual search algorithms have enabled image-based search engines. However, increased I/O and compute requirements have stymied the progress towards video-based search engines. To enable video search at scale, rearchitecting the roles of the memory subsystem and network layer is imperative.</p>
+
+<h2 id="nnap--high-speed-k-nearest-neighbors-on-the-micron-automata-processor">NNAP : High Speed K-Nearest Neighbors on the Micron Automata Processor</h2>
+
+<p>Near data processing has been proposed as a promising solution to eliminate costly data transfer for data bound applications by offering both enhanced energy efficiency and performance. In particular, the Micron Automata Processor is among the first near data processing solutions to be commercialized in recent years. However, it’s non-von Neumann architecture presents its own set of unique challenges and opportunities. This project aims to explore and implement the notoriously data bound k-nearest neighbors algorithm for practical sized applications by combining insights from computer vision and architecture.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>
+    <p><strong>NCAM: Near-Data Processing for Nearest Neighbor Search</strong><br />
+Carlo C. del Mundo, Vincent T. Lee, Luis Ceze, Mark Oskin<br />
+<a href="http://memsys.io">International Symposium on Memory Systems (MEMSYS ‘15)</a> (October 2015)<br />
+<a href="http://dl.acm.org/citation.cfm?id=2818984"><i class="fa fa-file-text-o"></i> Paper</a> | <a href="http://homes.cs.washington.edu/~cdel/presentations/memsys-2015-ncam.pdf"><i class="fa fa-file-pdf-o"></i> Slides</a> |</p>
+  </li>
+  <li>
+    <p><em>Full-length version in preparation.</em></p>
+  </li>
+  <li>
+    <p><strong>Similarity Search on Automata Processors</strong><br />
+Vincent T. Lee, Justin Kotalik, Carlo C. Del Mundo, Armin Alaghi, Luis Ceze, Mark Oskin<br />
+To appear in <a href="http://www.ipdps.org">International Parallel and Distributed Processing Symposium (IPDPS ‘17)</a></p>
+  </li>
+</ul>
+
+
+</div>
+
+
+      <div class="footer">
+  <p>
+      <a href="http://sampa.cs.washington.edu/private">private site</a>
+  </p>
+  <p>
+    <a href="http://www.cs.washington.edu/">Computer Science &amp;
+      Engineering</a>
+    at the
+    <a href="http://www.washington.edu/">University of
+      Washington</a>
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

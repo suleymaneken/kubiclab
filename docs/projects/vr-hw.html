@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sampa: Systems Support for Video Analytics and VR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="http://www.cs.washington.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/sampa.png"
+                    srcset="/img/sampa@2x.png 2x"
+                    alt="Sampa" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+  <h1>Systems Support for Video Analytics and VR</h1>
+  
+  <div>
+  <ul class="project-people">
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~amrita">
+        
+        <img class="img-circle" src="//homes.cs.washington.edu/~amrita/assets/img/amz.jpg" alt="Amrita Mazumdar"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://brandonhaynes.github.io/">
+        
+        <img class="img-circle" src="/img/people/bhaynes.jpg" alt="Brandon Haynes"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="http://homes.cs.washington.edu/~armin/">
+        
+        <img class="img-circle" src="/img/people/armin.jpg" alt="Armin Alaghi"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://www.cs.washington.edu/people/faculty/magda">
+        
+        <img class="img-circle" src="/img/people/magda.jpg" alt="Magda Balazinska"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~luisceze/">
+        
+        <img class="img-circle" src="/img/people/ceze.jpg" alt="Luis Ceze"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~akcheung/">
+        
+        <img class="img-circle" src="/img/people/akcheung.png" alt="Alvin Cheung"/>
+        
+        </a>
+    
+    </li>
+    
+</ul>
+
+  </div>
+  
+
+
+<div class="content">
+    <h2 id="vignette">Vignette</h2>
+<p>Vignette is a storage system supporting perceptual compression of video content. Vignette provides codec-agnostic support for applying machine learning to the video compression process, and an API to expose these ML optimizations to the storage manager to reduce cloud distribution costs.</p>
+
+<h2 id="visual-road">Visual Road</h2>
+<p>Visual Road is an automatic dataset generator and benchmark suite for video systems. 
+Visual Road is designed to evaluate a broad variety of VDBMSs: realtime systems, systems for longitudinal analytical queries, systems processing traditional videos, and systems designed for 360◦ videos.</p>
+
+<h2 id="lightdb">LightDB</h2>
+<p>We designed a database management system, LightDB, to efficiently ingest, store, and deliver VR content at scale.
+LightDB targets both live and prerecorded light field and 360◦ VR videos.
+Content delivered through LightDB requires up to 60% less bandwidth than existing methods and scales to many concurrent connections.</p>
+
+<h2 id="hardware-friendly-bilateral-solving">Hardware-Friendly Bilateral Solving</h2>
+<p>We have designed a new algorithm, the hardware-friendly bilateral solver, that enables real-time 3D-360◦ VR video rendering.
+Our algorithm is easily parallelized, achieving a 4x speedup on CPU and 32x speedup on GPU over a baseline CPU implementation.
+We also designed an FPGA-based hardware accelerator that utilizes reduced-precision computation and the parallelism inherent in our algorithm to achieve further speedups over our CPU and GPU implementations while consuming an order of magnitude less power.
+The FPGA design’s power efficiency enables practical real-time VR video processing at the camera rig or in the cloud.</p>
+
+<h2 id="publications">Publications</h2>
+<ul>
+  <li>
+    <p><strong>Vignette: Perceptual Compression for Video Storage and Processing Systems</strong><br />
+Amrita Mazumdar, Brandon Haynes, Magda Balazinska, Luis Ceze, Alvin Cheung, Mark Oskin<br />
+SoCC 2019, SoCC Best Poster Award (for poster accompanying the paper).</p>
+  </li>
+  <li>
+    <p><strong>Visual Road: A Video Data Management Benchmark</strong><br />
+Brandon Haynes, Amrita Mazumdar, Magda Balazinska, Luis Ceze, Alvin Cheung<br />
+SIGMOD 2019.</p>
+  </li>
+  <li>
+    <p><strong>LightDB: A DBMS for Virtual Reality</strong><br />
+Brandon Haynes, Amrita Mazumdar, Armin Alaghi, Magda Balazinska, Luis Ceze, Alvin Cheung<br />
+PVLDB 11(10) 2018.</p>
+  </li>
+  <li>
+    <p><strong>A Hardware-Friendly Bilateral Solver for Real-Time Virtual Reality Video</strong><br />
+Amrita Mazumdar, Armin Alaghi, Jonathan T. Barron, David Gallup, Luis Ceze, Mark Oskin, Steven M. Seitz<br />
+High Performance Graphics 2017</p>
+  </li>
+  <li>
+    <p><strong>VisualCloud Demonstration: A DBMS for Virtual Reality</strong><br />
+Brandon Haynes, Artem Minyaylov, Magdalena Balazinska, Luis Ceze, Alvin Cheung<br />
+SIGMOD 2017 Demo, Best Demo Honorable Mention</p>
+  </li>
+</ul>
+
+</div>
+
+
+      <div class="footer">
+  <p>
+      <a href="http://sampa.cs.washington.edu/private">private site</a>
+  </p>
+  <p>
+    <a href="http://www.cs.washington.edu/">Computer Science &amp;
+      Engineering</a>
+    at the
+    <a href="http://www.washington.edu/">University of
+      Washington</a>
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

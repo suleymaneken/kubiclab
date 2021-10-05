@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sampa: Disciplined Inconsistency</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="http://www.cs.washington.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/sampa.png"
+                    srcset="/img/sampa@2x.png 2x"
+                    alt="Sampa" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+  <h1>Disciplined Inconsistency</h1>
+  
+  <div>
+  <ul class="project-people">
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~bholt/">
+        
+        <img class="img-circle" src="/img/people/bholt.jpg" alt="Brandon Holt"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~bornholt/">
+        
+        <img class="img-circle" src="//homes.cs.washington.edu/~bornholt/img/me_square.jpg" alt="James Bornholt"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="http://irenezhang.net/">
+        
+        <img class="img-circle" src="/img/people/iyzhang.jpg" alt="Irene Zhang"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="http://drkp.net/">
+        
+        <img class="img-circle" src="/img/people/drkp.jpg" alt="Dan Ports"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~luisceze/">
+        
+        <img class="img-circle" src="/img/people/ceze.jpg" alt="Luis Ceze"/>
+        
+        </a>
+    
+    </li>
+    
+    <li>
+    
+        
+        
+        
+        
+        
+        
+        <a class="person" href="https://homes.cs.washington.edu/~oskin/">
+        
+        <img class="img-circle" src="/img/people/oskin.jpg" alt="Mark Oskin"/>
+        
+        </a>
+    
+    </li>
+    
+</ul>
+
+  </div>
+  
+
+
+<div class="content">
+    <style>
+.content img { float: right; margin: 1em; max-width: 150px; }
+.content blockquote {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  border-left: .25rem solid #eceeef;
+}
+</style>
+
+<p><img src="/img/ipa.jpg" alt="IPA" /></p>
+
+<p>To provide good user experiences, modern datacenter applications and
+web services must balance the competing requirements of application
+correctness and responsiveness. For example, a web store
+double-charging for purchases or keeping users waiting too long (each
+additional millisecond of latency can translate to a loss in traffic and revenue. Worse, programmers must maintain this balance in an unpredictable environment where a <a href="http://www.buzzfeed.com/daozers/what-its-like-to-work-on-buzzfeeds-tech-team-during-record-t">black and blue dress</a> or <a href="http://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/">Justin Bieber</a> can change application performance in the blink of an eye.</p>
+
+<p>Recognizing the trade-off between consistency and performance, many
+existing storage systems support configurable consistency levels that
+allow programmers to set the consistency of individual operations. These allow
+programmers to weaken consistency guarantees only for data that is not
+critical to application correctness, retaining strong consistency for
+vital data. Some systems further allow adaptable consistency levels at
+runtime, where guarantees are only weakened when necessary to meet
+availability or performance requirements (e.g., during a spike in
+traffic or datacenter failure).
+Unfortunately,
+using these systems correctly is challenging.  Programmers can
+inadvertently update strongly consistent data in the storage system
+using values read from weakly consistent operations, propagating
+inconsistency and corrupting stored data.  Over time, this
+<em>undisciplined</em> use of data from weakly consistent operations lowers
+the consistency of the storage system to its weakest level.</p>
+
+<p>In this paper, we propose a more disciplined approach to inconsistency
+in the <em>Inconsistent, Performance-bound, Approximate (IPA)</em> storage
+system. IPA introduces the following concepts:</p>
+
+<ul>
+  <li>
+    <p><em>Consistency Safety</em>, a new property that ensures that values from
+weakly consistent operations cannot flow into stronger consistency
+operations without explicit endorsement from the programmer.  IPA is
+the first storage system to provide consistency safety.</p>
+  </li>
+  <li>
+    <p><em>Consistency Types</em>, a new type system in which <em>type safety implies
+consistency safety</em>. Consistency types define the consistency and
+correctness of the returned value from every storage operation,
+allowing programmers to reason about their use of different
+consistency levels.  IPA’s type checker enforces the disciplined use
+of IPA consistency types statically at compile time.</p>
+  </li>
+  <li>
+    <p><em>Error-bounded Consistency.</em> IPA is a data structure store, like
+<a href="http://redis.io">Redis</a> or <a href="http://basho.com/products/riak-kv/">Riak</a>, allowing it to provide a new type of
+weak consistency that places <em>numeric error bounds</em> on the returned
+values.  Within these bounds, IPA automatically adapts to return the
+strongest IPA consistency type possible under the current system
+load.</p>
+  </li>
+</ul>
+
+<p>We’ve implemented a prototype of this model in Scala on top of an existing datastore, Cassandra, and use it to make performance/correctness tradeoffs in two applications: a ticket sales service and a Twitter clone. Our evaluation shows that IPA prevents consistency-based programming errors and adapts consistency automatically in response to changing network conditions, performing comparably to weak consistency and 2-10x faster than strong consistency.</p>
+
+<h2 id="publications">Publications</h2>
+<ul>
+  <li>
+    <p><strong>Disciplined Inconsistency with Consistency Types</strong><br />
+Brandon Holt, James Bornholt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br />
+<em>ACM Symposium on Cloud Computing (SoCC)</em>  — October 2016<br />
+<a href="http://bholt.github.io/gen/ipa.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Paper</a> | <a href="http://bholt.github.io/gen/ipa.html"><i class="fa fa-html5" aria-hidden="true"></i> Web</a></p>
+  </li>
+  <li><a href="http://homes.cs.washington.edu/~bholt/posts/disciplined-inconsistency.html">Blog post</a></li>
+  <li><a href="https://github.com/bholt/ipa">Source code <i class="fa fa-github"></i></a></li>
+</ul>
+
+
+</div>
+
+
+      <div class="footer">
+  <p>
+      <a href="http://sampa.cs.washington.edu/private">private site</a>
+  </p>
+  <p>
+    <a href="http://www.cs.washington.edu/">Computer Science &amp;
+      Engineering</a>
+    at the
+    <a href="http://www.washington.edu/">University of
+      Washington</a>
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

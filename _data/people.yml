@@ -1,5 +1,11 @@
 # Faculty
 # Alphabetical order
+suleyman:
+    display_name: "Süleyman Eken"
+    webpage: "https://avesis.kocaeli.edu.tr/suleyman.eken"
+    role: faculty
+    image: /img/people/bodik.jpg
+    bio: "Professor"
 
 bodik:
     display_name: "Ras Bodik"

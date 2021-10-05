@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <title>Sampa: Claret</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://suleymaneken.github.io/kubiclab/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://suleymaneken.github.io/kubiclab/css/sampa.css" rel="stylesheet">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
         <link rel="alternate" type="application/atom+xml" title="Atom"
-            href="https://suleymaneken.github.io/kubiclab/blog/blog.xml">
+            href="/blog/blog.xml">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="http://www.cs.washington.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
     </head>
     <body>      
         <div class="container">
           <div class="header">
-            <a href="https://suleymaneken.github.io/kubiclab/">
-                <img src="https://suleymaneken.github.io/kubiclab/img/sampa.png"
-                    srcset="https://suleymaneken.github.io/kubiclab/img/sampa@2x.png 2x"
+            <a href="/">
+                <img src="/img/sampa.png"
+                    srcset="/img/sampa@2x.png 2x"
                     alt="Sampa" id="logo">
             </a>
             <ul class="nav nav-pills pull-right">
@@ -24,21 +24,21 @@
                   
                     
                     <li class="nav-item">
-                      <a class="nav-link " href="https://suleymaneken.github.io/kubiclab/">
+                      <a class="nav-link " href="/">
                         Home
                       </a>
                     </li>
                   
                     
                     <li class="nav-item">
-                      <a class="nav-link " href="https://suleymaneken.github.io/kubiclab/research/">
+                      <a class="nav-link " href="/research/">
                         Research
                       </a>
                     </li>
                   
                     
                     <li class="nav-item">
-                      <a class="nav-link " href="https://suleymaneken.github.io/kubiclab/publications.html">
+                      <a class="nav-link " href="/publications.html">
                         Publications
                       </a>
                     </li>
@@ -62,7 +62,7 @@
         
         <a class="person" href="https://homes.cs.washington.edu/~bholt/">
         
-        <img class="img-circle" src="https://suleymaneken.github.io/kubiclab/img/people/bholt.jpg" alt="Brandon Holt"/>
+        <img class="img-circle" src="/img/people/bholt.jpg" alt="Brandon Holt"/>
         
         </a>
     
@@ -78,7 +78,7 @@
         
         <a class="person" href="http://irenezhang.net/">
         
-        <img class="img-circle" src="https://suleymaneken.github.io/kubiclab/img/people/iyzhang.jpg" alt="Irene Zhang"/>
+        <img class="img-circle" src="/img/people/iyzhang.jpg" alt="Irene Zhang"/>
         
         </a>
     
@@ -94,7 +94,7 @@
         
         <a class="person" href="http://drkp.net/">
         
-        <img class="img-circle" src="https://suleymaneken.github.io/kubiclab/img/people/drkp.jpg" alt="Dan Ports"/>
+        <img class="img-circle" src="/img/people/drkp.jpg" alt="Dan Ports"/>
         
         </a>
     
@@ -110,7 +110,7 @@
         
         <a class="person" href="https://homes.cs.washington.edu/~luisceze/">
         
-        <img class="img-circle" src="https://suleymaneken.github.io/kubiclab/img/people/ceze.jpg" alt="Luis Ceze"/>
+        <img class="img-circle" src="/img/people/ceze.jpg" alt="Luis Ceze"/>
         
         </a>
     
@@ -126,7 +126,7 @@
         
         <a class="person" href="https://homes.cs.washington.edu/~oskin/">
         
-        <img class="img-circle" src="https://suleymaneken.github.io/kubiclab/img/people/oskin.jpg" alt="Mark Oskin"/>
+        <img class="img-circle" src="/img/people/oskin.jpg" alt="Mark Oskin"/>
         
         </a>
     
@@ -139,7 +139,7 @@
 
 
 <div class="content">
-    <p><img src="https://suleymaneken.github.io/kubiclab/img/claret.jpg" class="pull-right" style="width:150px;margin:15px" /></p>
+    <p><img src="/img/claret.jpg" class="pull-right" style="width:150px;margin:15px" /></p>
 
 <p>Interactive distributed applications like Twitter or eBay are difficult to scale because of the high degree of writes or update operations. The highly skewed access patterns exhibited by real-world systems lead to high contention in datastores, causing periods of diminished service or even catastrophic failure. There is often sufficient concurrency in these applications to scale them without resorting to weaker consistency models, but traditional concurrency control mechanisms operating on low level operations cannot detect it.</p>
 
@@ -153,7 +153,7 @@ Furthermore, Claret improves peak throughput on benchmarks modeling real-world h
 
 <p>This diagram below shows some implementations of the two important transactions, <code>Bid</code> and <code>View</code>.</p>
 
-<p><img src="https://suleymaneken.github.io/kubiclab/img/claret-levels.svg" class="centered img-responsive" style="width:100%;" /></p>
+<p><img src="/img/claret-levels.svg" class="centered img-responsive" style="width:100%;" /></p>
 
 <p>At the highest (application) level (on the left), we understand that the two <code>Bid</code> transactions can run in either order and the <code>View</code> will observe the same result, that Bob’s bid was the highest. We say, then, that the two transactions <em>commute</em>. However, if we implement the transactions in a traditional key-value store, with <code>put</code> and <code>get</code> operations, the datastore sees reading and writing operations that conflict — at this low level, the commutativity has been lost. So the datastore ends up running the two bids sequentially.</p>
 
@@ -197,9 +197,9 @@ Brandon Holt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br />
 
         <!-- Support retina images. -->
         <script type="text/javascript"
-            src="https://suleymaneken.github.io/kubiclab/js/srcset-polyfill.js"></script>
+            src="/js/srcset-polyfill.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://suleymaneken.github.io/kubiclab/js/bootstrap.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
         
     </body>
 </html>

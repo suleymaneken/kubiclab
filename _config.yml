@@ -1,5 +1,5 @@
 name: Sampa
-url: https://suleymaneken.github.io/kubiclab
+url: https://suleymaneken.github.io/kubiclab/
 destination: ./docs
 exclude: [bibble, README.md, Makefile, Dockerfile]
 
@@ -29,7 +29,7 @@ roles:
 front_page_news: 4
 
 # Base pathname for links.
-base: 'https://suleymaneken.github.io/kubiclab'
+base: ''
 
 collections:
   projects:

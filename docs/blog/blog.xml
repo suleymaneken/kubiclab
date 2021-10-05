@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	
 	<title type="text" xml:lang="en">Sampa</title>
-    <link type="application/atom+xml" href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/blog.xml" rel="self"/>
-    <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/"/>
-	<updated>2021-10-05T18:46:11+00:00</updated>
-    <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/</id>
+    <link type="application/atom+xml" href="https://suleymaneken.github.io/kubiclab//blog/blog.xml" rel="self"/>
+    <link href="https://suleymaneken.github.io/kubiclab//"/>
+	<updated>2021-10-05T18:49:42+00:00</updated>
+    <id>https://suleymaneken.github.io/kubiclab//</id>
 	<author>
 		<name>the Sampa group</name>
 	</author>
@@ -14,10 +14,10 @@
 	<entry>
         
             <title>03 December 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-12-03T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/12/03/generals.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/12/03/generals.html</id>
 		<content type="html">&lt;p&gt;All hail Generals &lt;a href=&quot;https://homes.cs.washington.edu/~amrita&quot;&gt;Amrita&lt;/a&gt;, &lt;a href=&quot;https://1drv.ms/w/s!Au7NJNeN_ctwnJYYt6kv3RXMRl_YeA&quot;&gt;Liang&lt;/a&gt; and &lt;a href=&quot;https://homes.cs.washington.edu/~mgliu/&quot;&gt;Ming&lt;/a&gt; who succesfully completed their generals exam!&lt;/p&gt;
 
 </content>
@@ -26,10 +26,10 @@
 	<entry>
         
             <title>23 November 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-11-23T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/11/23/vignette-award.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/11/23/vignette-award.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~amrita&quot;&gt;Amrita&lt;/a&gt; won the best poster award at SoCC for her work on &lt;a href=&quot;https://homes.cs.washington.edu/~amrita/papers/amazumdar_socc19.pdf&quot;&gt;Vignette&lt;/a&gt;!&lt;/p&gt;
 
 </content>
@@ -38,10 +38,10 @@
 	<entry>
         
             <title>24 October 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-10-24T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/10/24/cgo.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/10/24/cgo.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://cowanmeg.github.io/&quot;&gt;Meghan&lt;/a&gt;’s paper on synthesizing ultra-low-precision machine learning operators was accepted to CGO!&lt;/p&gt;
 
 </content>
@@ -50,10 +50,10 @@
 	<entry>
         
             <title>02 September 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-09-02T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/09/02/socc.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/09/02/socc.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~amrita&quot;&gt;Amrita’s&lt;/a&gt; paper on perceptual video compression for storage
 will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt;/a&gt;.&lt;/p&gt;
 
@@ -63,10 +63,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>14 June 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-06-14T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/06/14/graduates.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/06/14/graduates.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.cs.utexas.edu/~bornholt/&quot;&gt;James&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~vlee2/&quot;&gt;Vincent&lt;/a&gt;, and &lt;a href=&quot;https://homes.cs.washington.edu/~moreau/&quot;&gt;Thierry&lt;/a&gt; graduated!&lt;/p&gt;
 
 </content>
@@ -75,10 +75,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>29 April 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-04-29T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/04/29/maycore-basejump.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/04/29/maycore-basejump.html</id>
 		<content type="html">&lt;p&gt;The BSG &lt;a href=&quot;https://github.com/bespoke-silicon-group/bsg_manycore/&quot;&gt;Manycore&lt;/a&gt; and &lt;a href=&quot;https://github.com/bespoke-silicon-group/basejump_stl&quot;&gt;Basejump STL&lt;/a&gt; are on Github!&lt;/p&gt;
 
 </content>
@@ -87,10 +87,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>28 March 2019</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2019-03-28T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2019/03/28/gomactech.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2019/03/28/gomactech.html</id>
 		<content type="html">&lt;p&gt;We presented two talks at &lt;a href=&quot;https://www.gomactech.net/2019&quot;&gt;GOMACTech&lt;/a&gt;: Amrita gave a talk on Vignette in the SRC JUMP Student Session, and Mark spoke about Black Parrot.&lt;/p&gt;
 
 </content>
@@ -99,10 +99,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>07 December 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-12-07T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/12/07/mlpcd.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/12/07/mlpcd.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://cowanmeg.github.io/&quot;&gt;Meghan&lt;/a&gt; presented a workshop paper on automatically generating low-precision operators for deep learning at &lt;a href=&quot;https://sites.google.com/view/nips-2018-on-device-ml/home?authuser=0&quot;&gt;MLPCD&lt;/a&gt; (colocated with NeurIPS)!&lt;/p&gt;
 
 </content>
@@ -111,10 +111,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>02 September 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-09-02T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/09/02/new-students.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/09/02/new-students.html</id>
 		<content type="html">&lt;p&gt;We welcomed many new members to the lab! Welcome students &lt;a href=&quot;https://homes.cs.washington.edu/~patelp1/&quot;&gt;Pratyush&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~katielim/&quot;&gt;Katie&lt;/a&gt;, &lt;a href=&quot;https://neildryan.com/&quot;&gt;Neil&lt;/a&gt;, Dan, &lt;a href=&quot;http://justg.us/&quot;&gt;Gus&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~cyulin/&quot;&gt;Chien-Yu&lt;/a&gt;, Borna, Paul, Max, and postdoc &lt;a href=&quot;http://www.dustinrichmond.com/&quot;&gt;Dustin&lt;/a&gt;!&lt;/p&gt;
 
 </content>
@@ -123,10 +123,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2019/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>03 August 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-08-03T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/08/03/socc.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/08/03/socc.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://1drv.ms/w/s!Au7NJNeN_ctwnJYYt6kv3RXMRl_YeA&quot;&gt;Liang&lt;/a&gt;’s paper on a rack scale parameter server
 will appear at &lt;a href=&quot;https://acmsocc.github.io/2018/&quot;&gt;SoCC&lt;/a&gt;.&lt;/p&gt;
 
@@ -136,10 +136,10 @@ will appear at &lt;a href=&quot;https://acmsocc.github.io/2018/&quot;&gt;SoCC&lt
 	<entry>
         
             <title>27 July 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-07-27T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/07/27/osdi.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/07/27/osdi.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://homes.cs.washington.edu/~moreau/&quot;&gt;Thierry&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~eqy/&quot;&gt;Eddie&lt;/a&gt;, &lt;a href=&quot;https://cowanmeg.github.io/&quot;&gt;Meghan&lt;/a&gt;, and &lt;a href=&quot;https://homes.cs.washington.edu/~luisceze/&quot;&gt;Luis&lt;/a&gt;
 had their paper on the &lt;a href=&quot;https://tvm.ai&quot;&gt;TVM deep learning stack&lt;/a&gt;
 (in collaboration with the &lt;a href=&quot;https://sampl.cs.washington.edu&quot;&gt;SAMPL&lt;/a&gt; group)
@@ -151,10 +151,10 @@ accepted to &lt;a href=&quot;https://www.usenix.org/conference/osdi18&quot;&gt;O
 	<entry>
         
             <title>09 July 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-07-09T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/07/09/atc.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/07/09/atc.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://1drv.ms/w/s!Au7NJNeN_ctwnJYYt6kv3RXMRl_YeA&quot;&gt;Liang&lt;/a&gt;’s paper on &lt;a href=&quot;https://www.usenix.org/conference/atc18/presentation/luo&quot;&gt;troubleshooting transient errors in production systems&lt;/a&gt;
 appeared at &lt;a href=&quot;https://www.usenix.org/conference/atc18&quot;&gt;USENIX ATC&lt;/a&gt;.&lt;/p&gt;
 
@@ -164,10 +164,10 @@ appeared at &lt;a href=&quot;https://www.usenix.org/conference/atc18&quot;&gt;US
 	<entry>
         
             <title>19 May 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-05-19T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/05/19/vldb.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/05/19/vldb.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~amrita/&quot;&gt;Amrita&lt;/a&gt; and &lt;a href=&quot;https://homes.cs.washington.edu/~armin/&quot;&gt;Armin&lt;/a&gt;’s paper
 (with our friends in the &lt;a href=&quot;https://db.cs.washington.edu&quot;&gt;database group&lt;/a&gt;)
 on &lt;a href=&quot;https://db.cs.washington.edu/projects/lightdb/&quot;&gt;efficient storage and processing for virtual-reality video&lt;/a&gt;
@@ -179,10 +179,10 @@ will appear at &lt;a href=&quot;http://vldb2018.lncc.br/&quot;&gt;VLDB 2018&lt;/
 	<entry>
         
             <title>09 April 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-04-09T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/04/09/max-nsf.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/04/09/max-nsf.html</id>
 		<content type="html">&lt;p&gt;Congratulations to &lt;a href=&quot;https://mwillsey.com/&quot;&gt;Max&lt;/a&gt; for receiving an &lt;a href=&quot;https://news.cs.washington.edu/2018/04/09/national-science-foundation-recognizes-allen-school-graduate-students-for-research-excellence/&quot;&gt;NSF GRFP Honorable Mention&lt;/a&gt;!&lt;/p&gt;
 
 </content>
@@ -191,10 +191,10 @@ will appear at &lt;a href=&quot;http://vldb2018.lncc.br/&quot;&gt;VLDB 2018&lt;/
 	<entry>
         
             <title>19 March 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-03-19T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/03/19/date18-best-paper.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/03/19/date18-best-paper.html</id>
 		<content type="html">&lt;p&gt;Congratulations to &lt;a href=&quot;http://sungkim.net/&quot;&gt;Sung&lt;/a&gt;, &lt;a href=&quot;http://homes.cs.washington.edu/~moreau/&quot;&gt;Thierry&lt;/a&gt;, and &lt;a href=&quot;https://homes.cs.washington.edu/~armin/&quot;&gt;Armin&lt;/a&gt;, whose &lt;a href=&quot;https://arxiv.org/abs/1706.04332&quot;&gt;paper&lt;/a&gt; on cotraining neural networks
 with voltage overscaling won &lt;a href=&quot;https://www.date-conference.com/proceedings-archive/2018/html/bestpaper.html&quot;&gt;Best Paper in the Applications Track&lt;/a&gt; at &lt;a href=&quot;https://www.date-conference.com/date18/&quot;&gt;DATE 2018&lt;/a&gt;!&lt;/p&gt;
 
@@ -204,10 +204,10 @@ with voltage overscaling won &lt;a href=&quot;https://www.date-conference.com/pr
 	<entry>
         
             <title>10 March 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-03-10T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/03/10/ipdps18.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/03/10/ipdps18.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~vlee2/&quot;&gt;Vincent&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~amrita/&quot;&gt;Amrita&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~cdel/&quot;&gt;Carlo&lt;/a&gt;, and &lt;a href=&quot;https://homes.cs.washington.edu/~armin/&quot;&gt;Armin&lt;/a&gt;’s
 &lt;a href=&quot;https://arxiv.org/abs/1606.03742&quot;&gt;paper&lt;/a&gt; on application codesign of near-data processing for similarity search
 will appear at &lt;a href=&quot;http://www.ipdps.org/ipdps2018/index.html&quot;&gt;IPDPS 2018&lt;/a&gt;.&lt;/p&gt;
@@ -218,10 +218,10 @@ will appear at &lt;a href=&quot;http://www.ipdps.org/ipdps2018/index.html&quot;&
 	<entry>
         
             <title>18 January 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-01-18T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/01/18/fb-fellowship.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/01/18/fb-fellowship.html</id>
 		<content type="html">&lt;p&gt;Congratulations to &lt;a href=&quot;https://homes.cs.washington.edu/~bornholt/&quot;&gt;James&lt;/a&gt; for winning a &lt;a href=&quot;https://research.fb.com/announcing-the-2018-cohort-of-facebook-fellows-and-emerging-scholars/&quot;&gt;2018 Facebook Fellowship&lt;/a&gt;!&lt;/p&gt;
 </content>
 	</entry>
@@ -229,10 +229,10 @@ will appear at &lt;a href=&quot;http://www.ipdps.org/ipdps2018/index.html&quot;&
 	<entry>
         
             <title>16 January 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-01-16T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/01/16/sysml.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/01/16/sysml.html</id>
 		<content type="html">&lt;p&gt;Liang, &lt;a href=&quot;https://tqchen.github.io/&quot;&gt;Tianqi&lt;/a&gt;, &lt;a href=&quot;https://homes.cs.washington.edu/~moreau/&quot;&gt;Thierry&lt;/a&gt;, Eddie, and &lt;a href=&quot;https://homes.cs.washington.edu/~haichen/&quot;&gt;Haichen&lt;/a&gt; had their Parameter Hub and TVM papers accepted to SysML! Nice job guys!&lt;/p&gt;
 </content>
 	</entry>
@@ -240,10 +240,10 @@ will appear at &lt;a href=&quot;http://www.ipdps.org/ipdps2018/index.html&quot;&
 	<entry>
         
             <title>11 January 2018</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2018-01-11T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2018/01/11/top-picks.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2018/01/11/top-picks.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~mgliu/&quot;&gt;Ming&lt;/a&gt; and Liang had their ASPLOS 2017 paper on &lt;a href=&quot;https://homes.cs.washington.edu/~luisceze/publications/incbricks-asplos17.pdf&quot;&gt;in-network computing&lt;/a&gt; selected for Micro Top Picks.&lt;/p&gt;
 
 </content>
@@ -252,10 +252,10 @@ will appear at &lt;a href=&quot;http://www.ipdps.org/ipdps2018/index.html&quot;&
 	<entry>
         
             <title>16 November 2017</title>
-            <link href="https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/"/>
+            <link href="https://suleymaneken.github.io/kubiclab//blog/"/>
         
 		<updated>2017-11-16T00:00:00+00:00</updated>
-        <id>https://suleymaneken.github.io/kubiclabhttps://suleymaneken.github.io/kubiclab/blog/2017/11/16/madrona.html</id>
+        <id>https://suleymaneken.github.io/kubiclab//blog/2017/11/16/madrona.html</id>
 		<content type="html">&lt;p&gt;Two of our projects &lt;a href=&quot;https://news.cs.washington.edu/2017/11/16/allen-school-and-madrona-venture-group-celebrate-student-innovation-at-annual-research-day/&quot;&gt;won runner up for the Madrona Prize&lt;/a&gt;!
 Congrats to &lt;a href=&quot;https://homes.cs.washington.edu/~amrita&quot;&gt;Amrita&lt;/a&gt;, &lt;a href=&quot;http://homes.cs.washington.edu/~armin/&quot;&gt;Armin&lt;/a&gt;, &lt;a href=&quot;http://homes.cs.washington.edu/~luisceze/&quot;&gt;Luis&lt;/a&gt;, and &lt;a href=&quot;http://homes.cs.washington.edu/~oskin/&quot;&gt;Mark&lt;/a&gt;
 for their work on &lt;a href=&quot;https://sampa.cs.washington.edu/projects/vr-hw.html&quot;&gt;real-time virtual reality video hardware&lt;/a&gt;,

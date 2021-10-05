@@ -1,5 +1,5 @@
 name: Sampa
-url: http://sampa.cs.washington.edu
+url: https://suleymaneken.github.io/kubiclab
 destination: ./docs
 exclude: [bibble, README.md, Makefile, Dockerfile]
 
